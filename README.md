@@ -1,4 +1,4 @@
-teachit
+TeachIt
 =======
 
 Collaborative teaching/learning platform
