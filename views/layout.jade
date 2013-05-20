@@ -2,6 +2,14 @@ doctype 5
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(href='/css/bootstrap.min.css', rel='stylesheet')
+    link(href='/css/style.css', rel='stylesheet')
   body
-    block content
+    .container
+      #header
+        include includes/header
+      #content
+        block content
+      #footer
+        include includes/footer
+      script(src='/js/bootstrap.min.js')
